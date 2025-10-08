@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fariha Aktar</title>
+  <meta name="description" content="Urban & Regional Planner" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --maxw: 900px;
+      --fg: #1c1e21;
+      --muted:#58606a;
+      --link:#0b66c3;
+      --card:#f8fafc;
+      --border:#e5e7eb;
+      --pill:#eef2ff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--fg); line-height:1.6; background:#fff;
+    }
+    .wrap{max-width:var(--maxw); margin:0 auto; padding:32px 18px 80px}
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{
+      display:grid; grid-template-columns:112px 1fr; gap:18px; align-items:center;
+      margin-bottom:24px; padding-bottom:16px; border-bottom:1px solid var(--border);
+    }
+    .avatar{
+      width:112px; height:112px; border-radius:50%; object-fit:cover; border:3px solid #fff;
+      box-shadow:0 0 0 1px var(--border), 0 6px 18px rgba(0,0,0,.08);
+      background:#ddd;
+    }
+    h1{margin:0; font-size:28px; line-height:1.25}
+    .tagline{margin:6px 0 0; color:var(--muted); font-style:italic}
+    section{margin:28px 0}
+    h2{font-size:22px; margin:0 0 12px; display:flex; align-items:center; gap:8px}
+    ul{margin:10px 0 0 0; padding-left:20px}
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:12px;
+      padding:16px; margin-top:10px;
+    }
+    details{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px}
+    summary{cursor:pointer; font-weight:600}
+    .center{text-align:center}
+    img.responsive{max-width:100%; height:auto}
+    .badges img, .badges svg{margin:4px 6px 0 0}
+    footer{margin-top:36px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:14px}
+    .contact a{margin-right:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- Hero / Header -->
+    <header>
+      <!-- Replace images/profile.jpg with your actual file name if different -->
+      <img class="avatar" src="images/profile.jpg" alt="Fariha Aktar photo" />
+      <div>
+        <h1>Greetings! I am <strong>Fariha Aktar</strong>.</h1>
+        <p class="tagline">I am a graduate in Urban and Regional Planning with a strong passion for sustainable development and environmental resilience.</p>
+        <p class="contact">
+          <a href="mailto:aktarfariha1999@gmail.com">Email</a> ·
+          <a href="https://www.linkedin.com/in/fariha-aktar-378794187/" target="_blank" rel="noopener">LinkedIn</a> ·
+          <a href="https://github.com/FARIHA1999" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </div>
+    </header>
+
+    <!-- Research Areas -->
+    <section id="research-areas">
+      <h2>🔬 Research Areas</h2>
+      <ul>
+        <li>Protected Areas &amp; Urban Forest Conservation Management</li>
+        <li>Land Surface Temperature &amp; Urban Heat Island Analysis</li>
+        <li>Urban Expansion &amp; Growth Pattern in Developing Countries</li>
+        <li>Remote Sensing &amp; Geo-AI Based Urban Solutions</li>
+        <li>Transit-Oriented Development (TOD)</li>
+        <li>Travel Behaviour &amp; Transportation Planning</li>
+        <li>Climate Change Adaptation</li>
+      </ul>
+    </section>
+
+    <!-- Recent Projects -->
+    <section id="recent-projects">
+      <h2>🧩 Recent Projects</h2>
+      <div class="card">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1-YVh3saNmY9x3E0jgSx83rYcvYmydEM0/view?usp=drive_link" target="_blank" rel="noopener"><strong>3D Flood Simulation 🌊</strong></a></li>
+          <li><a href="Research/lst/lst.md"><strong>Land Surface Temperature (LST) Map 🏜️</strong></a></li>
+        </ul>
+        <p style="margin:10px 0 0;color:var(--muted);font-size:14px">Note: links like <code>Research/...</code> will only work after you add those files to this repo.</p>
+      </div>
+    </section>
+
+    <!-- Current Research -->
+    <section id="current-research">
+      <h2>💡 Current Research</h2>
+      <ul>
+        <li><a href="Research/Regional.md"><strong>Exploring the Influence of Potential Factors of Urban Change in Bangladesh.</strong></a> ↗</li>
+      </ul>
+    </section>
+
+    <!-- Thesis -->
+    <section id="thesis">
+      <h2>📑 Thesis Project</h2>
+      <ul>
+        <li><a href="Research/Thesis.md"><strong>Exploring the Reasons Behind Land Cover Change &amp; Evaluating Management Strategies of a Protected Area in Bangladesh.</strong></a> ↗</li>
+      </ul>
+    </section>
+
+    <!-- Academic Projects -->
+    <section id="academic-projects">
+      <h2>📘 Academic Projects</h2>
+      <ul>
+        <li><a href="Academic/Coastal.md">Climate Change Adaptation</a> ↗</li>
+        <li><a href="Academic/Participatory.md">Participatory Planning Studio</a> ↗</li>
+        <li><a href="Academic/Project/project.md">Project Planning Studio</a> ↗</li>
+        <li><a href="Academic/Transportation/Transportation.md">Transportation Planning Studio</a> ↗</li>
+        <li><a href="Academic/Regional/Regional.md">Regional Planning Studio</a> ↗</li>
+        <li><a href="Academic/Rural/Rural.md">Rural Planning Studio</a> ↗</li>
+        <li><a href="Academic/Program/Program.md">Programming Studio</a> ↗</li>
+        <li><a href="Academic/GIS/GIS.md">GIS and Remote Sensing Studio</a> ↗</li>
+        <li><a href="Academic/Urban/Urban.md">Urban Planning Studio</a> ↗</li>
+        <li><a href="Academic/Landscape/Landscape.md">Landscape Planning Studio</a> ↗</li>
+        <li><a href="Academic/Site/Site.md">Site and Area Planning Studio</a> ↗</li>
+        <li><a href="Academic/Social/Social.md">Social and Physical Surveys</a> ↗</li>
+        <li><a href="Academic/Carto/Carto.md">Surveying and Cartography Workshop</a> ↗</li>
+      </ul>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience">
+      <h2>💼 Professional Experience</h2>
+      <ul>
+        <li><a href="Job/iwm.md"><i>Climate Associate - Institute of Water Modelling (IWM)</i></a> ↗</li>
+        <li><a href="Job/gca.md"><i>Consultant - Global Center on Adaptation (GCA)</i></a> ↗</li>
+        <li><a href="Job/gca1.md"><i>Intern - Global Center on Adaptation (GCA)</i></a> ↗</li>
+      </ul>
+    </section>
+
+    <!-- Professional Training -->
+    <section id="training">
+      <h2>🏅 Professional Training</h2>
+      <details>
+        <summary><b>Environmental Modelling &amp; Environmental and Social Impact Assessment (ESIA)</b> · IWM — <i>click to view</i></summary>
+        <br />
+        <p><b>Key Modules:</b></p>
+        <ul>
+          <li>ESIA &amp; Project Cycle | Policy &amp; Legal Framework | Baseline Assessment</li>
+          <li>Public Consultation &amp; Stakeholder Engagement</li>
+          <li>Environmental &amp; Social Risk Assessment</li>
+          <li>Mitigation Measures &amp; EMP/EMoP Development</li>
+          <li>ESIA Reporting &amp; Environmental Clearance Process</li>
+        </ul>
+        <div class="center">
+          <!-- Replace images/esia-training.png with your actual image file name -->
+          <img class="responsive" src="images/ESIA%20Training.PNG" alt="ESIA Training Certificate (IWM)" style="max-width:520px" />
+        </div>
+        <p>📎 <a href="https://www.iwmbd.org/assets/uploads/iwm/training/courses/Flyer%20ESIA_May_Rev_2025.pdf" target="_blank" rel="noopener">Official Course Flyer (PDF)</a></p>
+      </details>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2>🎓 Education</h2>
+      <ul>
+        <li><b>Bachelor of Urban and Regional Planning (BURP)</b> — <a href="https://urp.buet.ac.bd/">Bangladesh University of Engineering &amp; Technology (BUET)</a> · 🗓️ 2019–2024<br /><b>CGPA: 3.64/4.00</b></li>
+        <li><b>Higher Secondary Certificate (HSC)</b> — <a href="https://www.vnsc.edu.bd/">Viqarunnisa Noon School &amp; College</a> · 🗓️ 2016–2018<br /><b>GPA: 5.00/5.00</b></li>
+        <li><b>Secondary School Certificate (SSC)</b> — <a href="https://www.vnsc.edu.bd/">Viqarunnisa Noon School &amp; College</a> · 🗓️ 2014–2016<br /><b>GPA: 5.00/5.00</b></li>
+      </ul>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements">
+      <h2>🏆 Achievements</h2>
+      <ul>
+        <li>🎤 Key Speaker at <i>Planning Week 2024: Just Urban Transition</i> – Presented thesis on Protected Area &amp; Environmental Justice.</li>
+        <li>🥈 2nd Runner Up – <i>EnvoFrame SDG Awareness Competition</i>, North South University (2023).</li>
+        <li>🌍 Finalist – <i>Climate Science Olympiad</i> (2023).</li>
+        <li>🏅 Bronze Standard – <i>Duke of Edinburgh’s International Award</i> (2021).</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>🛠️ Skills &amp; Tools</h2>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
+        <img src="https://img.shields.io/badge/ArcGIS-1E4D2B?style=for-the-badge&logo=esri&logoColor=white" alt="ArcGIS" />
+        <img src="https://img.shields.io/badge/QGIS-3C9D46?style=for-the-badge&logo=qgis&logoColor=white" alt="QGIS" />
+        <img src="https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white" alt="Google Earth Engine" />
+        <img src="https://img.shields.io/badge/Remote%20Sensing-006699?style=for-the-badge&logo=databricks&logoColor=white" alt="Remote Sensing" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black" alt="Google Colab" />
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+        <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+        <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib" />
+        <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
+        <img src="https://img.shields.io/badge/MS%20Project-217346?style=for-the-badge&logo=microsoft&logoColor=white" alt="MS Project" />
+        <img src="https://img.shields.io/badge/MS%20PowerPoint-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" alt="MS PowerPoint" />
+        <img src="https://img.shields.io/badge/PTV%20Vissim-CC0000?style=for-the-badge&logo=ptvgroup&logoColor=white" alt="PTV Vissim" />
+        <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white" alt="Adobe Illustrator" />
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section id="languages">
+      <h2>🌐 Languages</h2>
+      <ul>
+        <li>Bangla (Native)</li>
+        <li>English (Fluent)</li>
+      </ul>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Fariha Aktar · <a href="https://github.com/FARIHA1999">GitHub</a> · <a href="https://www.linkedin.com/in/fariha-aktar-378794187/" target="_blank" rel="noopener">LinkedIn</a>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
