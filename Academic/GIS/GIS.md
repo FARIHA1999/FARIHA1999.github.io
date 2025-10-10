@@ -14,16 +14,19 @@ Fires at hospitals are a typical occurrence that frequently causes considerable 
 <br>
 
 ## 📊 Results
-<p align="left">
-    <img src="./Picture12.jpg" alt="Social and Resource Map" width="70%">
+<p align="Center">
+    <img src="./Picture12.jpg" alt="Social and Resource Map" width="60%">
  </p>
-<p align="left">
-    <img src="./Picture13.jpg" alt="Social and Resource Map" width="70%">
+<p align="Center">
+    <img src="./Picture13.jpg" alt="Social and Resource Map" width="60%">
  </p>
-<p align="left">
+
+**Statistical Analysis to Assess the Response Time of Fire Stations**
+<p align="Center">
     <img src="./Picture14.jpg" alt="Social and Resource Map" width="70%">
  </p>
- <p align="left">
+<i>Response time of majority of the fire stations fall within the range of 20 to 50 minutes which is higher than the NFPA standard response time (Nine minutes twenty seconds) of fire station. </i>
+ <p align="Center">
     <img src="./Picture15.jpg" alt="Social and Resource Map" width="70%">
  </p>
  <br>
