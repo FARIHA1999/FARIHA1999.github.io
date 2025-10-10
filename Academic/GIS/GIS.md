@@ -23,23 +23,15 @@ Fires at hospitals are a typical occurrence that frequently causes considerable 
     <img src="./Picture013.jpg" alt="Social and Resource Map" width="60%">
  </p>
 <p align="Center">
-    <img src="./Picture1.jpg" alt="Social and Resource Map" width="50%">
- </p>
-<p align="Center">
-    <img src="./Picture2.jpg" alt="Social and Resource Map" width="50%">
+    <img src="./Picture1.jpg" alt="Social and Resource Map" width="50%"><img src="./Picture2.jpg" alt="Social and Resource Map" width="50%">
  </p>
  <p align="Center">
-    <img src="./Picture3.jpg" alt="Social and Resource Map" width="50%">
- </p>
- <p align="Center">
-    <img src="./Picture5.jpg" alt="Social and Resource Map" width="50%">
+    <img src="./Picture3.jpg" alt="Social and Resource Map" width="50%"><img src="./Picture5.jpg" alt="Social and Resource Map" width="50%">
  </p>
   <p align="Center">
-    <img src="./Picture6.jpg" alt="Social and Resource Map" width="50%">
+    <img src="./Picture6.jpg" alt="Social and Resource Map" width="50%"><img src="./Picture7.jpg" alt="Social and Resource Map" width="50%">
  </p>
- <p align="Center">
-    <img src="./Picture7.jpg" alt="Social and Resource Map" width="50%">
- </p>
+
 ### **Statistical Analysis to Assess the Response Time of Fire Stations**
 <p align="Center">
     <img src="./Picture14.jpg" alt="Social and Resource Map" width="70%">
