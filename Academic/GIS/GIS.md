@@ -26,10 +26,11 @@ Fires at hospitals are a typical occurrence that frequently causes considerable 
     <img src="./Picture14.jpg" alt="Social and Resource Map" width="70%">
  </p>
 <i>Response time of majority of the fire stations fall within the range of 20 to 50 minutes which is higher than the NFPA standard response time (Nine minutes twenty seconds) of fire station. </i> <br>
+ 
  <p align="Center">
-    <img src="./Picture15.jpg" alt="Social and Resource Map" width="60%">
+    <img src="./Picture15.jpg" alt="Social and Resource Map" width="50%">
  </p>
-<i>the distribution of fire stations follow a dispersed spatial distribution which implies, at the time of selecting locations for fire stations less priority was given to the location of the existing hospitals. As a result, majority of the hospitals are located outside the service area of fire stations.</i> <br> 
+<i>The distribution of fire stations follow a dispersed spatial distribution which implies, at the time of selecting locations for fire stations less priority was given to the location of the existing hospitals. As a result, majority of the hospitals are located outside the service area of fire stations.</i> <br> 
 <br>
  
 [![shitft](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](362.pdf) <br>
