@@ -5,6 +5,8 @@
 2. To identify the activities performed by the university students of Bangladesh during the enforced lockdown due to COVID-19. 
 3. To find out the relationships (if any) between activities and socio-economic condition.
 
+[![shitft](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](Presentation.pdf) <br>
+
 [![shitft](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report.pdf) <br>
 
 ## 📊 Result
@@ -35,4 +37,4 @@
 
 
 
-[![shitft](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](Presentation.pdf) <br>
+
