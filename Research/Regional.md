@@ -6,7 +6,7 @@ Bangladesh experiences rapid urbanization due to several factors such as populat
 </p>
 <br>
 
-- **💡Selected Factors**
+**💡Selected Factors**
  <p align="left">
     <img src="./1.png" alt="Social and Resource Map" width="40%"><img src="./2.png" alt="Social and Resource Map" width="40%">
   </p>
