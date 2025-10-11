@@ -11,17 +11,17 @@
 [![Concept Note](https://img.shields.io/static/v1?label=Technical%20and%20Financial%20Proposal&message=%20&color=F39C12&style=for-the-badge)](TFP.pdf)<br>
 
 - **Planning Framework**
-  <p align="left">
+  <p align="center">
     <img src="./1.png" alt="Social and Resource Map" width="70%">
   </p>
 
 - **Manning Schedule**
-  <p align="left">
+  <p align="center">
     <img src="./Picture1.jpg" alt="Social and Resource Map" width="80%">
   </p>
   
 - **Working Schedule**
-  <p align="left">
+  <p align="center">
     <img src="./Picture2.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
@@ -29,7 +29,7 @@
 - **Title:**  Construction of New Railway Corridor from Bhanga to Kuakata Connecting Payra Port. <br>
 
 - **Project Location**
-  <p align="left">
+  <p align="center">
     <img src="./2.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
