@@ -9,11 +9,11 @@
 [![shitft](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report1.pdf) [![shitft](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](shiftshare.pdf)<br>
 
 - **Shift Share Analysis**
-  <p align="left">
+  <p align="center">
     <img src="./Picture26.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **National Growth vs Regional Growth Rate**
-  <p align="left">
+  <p align="center">
     <img src="./Picture27.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Contribution of Subsectors in Regional Growth**
@@ -21,15 +21,15 @@
     <img src="./Picture28.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Lagging and Leading Industries in the Regions**
-  <p align="left">
+  <p align="center">
     <img src="./Picture35.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Inter Regional Analysis**
-  <p align="left">
+  <p align="center">
     <img src="./Picture36.jpg" alt="Social and Resource Map" width="70%">
   </p>
 
-  <p align="left">
+  <p align="center">
     <img src="./Picture37.jpg" alt="Social and Resource Map" width="70%">
   </p>
   
@@ -45,21 +45,21 @@
 [![formal](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report_formal_regionalization.pdf) [![formal](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](Presentation_formal_regionalization.pdf)<br>
 
 - **Methodology**
-  <p align="left">
+  <p align="center">
     <img src="./Picture1.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Formal Region Delineation**
-  <p align="left">
+  <p align="center">
     <img src="./Picture2.jpg" alt="Social and Resource Map" width="70%">
   </p>
-  <p align="left">
+  <p align="center">
     <img src="./Picture3.jpg" alt="Social and Resource Map" width="70%">
   </p>
-    <p align="left">
+    <p align="center">
     <img src="./Picture4.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Rank of Divisions based on HDI Value**
-  <p align="left">
+  <p align="center">
     <img src="./Picture5.jpg" alt="Social and Resource Map" width="70%">
   </p>
   <br>
@@ -74,34 +74,34 @@ To explore the spatial concentration of public facilities, which include primary
 [![LQ](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](LQ_presentation.pdf) <br>
 
 - **Location Quotient Method**
-  <p align="left">
+  <p align="center">
     <img src="./Picture47.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Spatial Distribution of Educational Facilities**
-  <p align="left">
+  <p align="center">
     <img src="./Picture48.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Formal Regionalization based on Spatial Distribution of Public Facilities**
-  <p align="left">
+  <p align="center">
     <img src="./Picture50.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Gini Index**
-  <p align="left">
+  <p align="center">
     <img src="./Picture51.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Box Plot**
-  <p align="left">
+  <p align="center">
     <img src="./Picture52.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Pearson Correlation Test**
-  <p align="left">
+  <p align="center">
     <img src="./Picture53.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Ranking of Districts based on LQ Value**
-  <p align="left">
+  <p align="center">
     <img src="./Picture55.jpg" alt="Social and Resource Map" width="70%">
   </p>
-    <p align="left">
+    <p align="center">
     <img src="./Picture54.jpg" alt="Social and Resource Map" width="70%">
   </p>
   
@@ -116,31 +116,31 @@ To explore the spatial concentration of public facilities, which include primary
 [![FR](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Regionalization_Report.pdf) [![LQ](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](Regionalization_Presentation.pdf) <br>
 
 - **Location of the Study Area**
-  <p align="left">
+  <p align="center">
     <img src="./Picture39.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Geographic Position**
-  <p align="left">
+  <p align="center">
     <img src="./Picture40.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Economic Situation**
-  <p align="left">
+  <p align="center">
     <img src="./Picture41.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Number of Growth Centers in the Study Area**
-  <p align="left">
+  <p align="center">
     <img src="./Picture43.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Number of Historic Sites in the Study Area**
-  <p align="left">
+  <p align="center">
     <img src="./Picture44.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Transportation Infrastructures in the Study Area**
-  <p align="left">
+  <p align="center">
     <img src="./Picture45.jpg" alt="Social and Resource Map" width="70%">
   </p>
 - **Connectivity with Neighbouring Country**
-  <p align="left">
+  <p align="center">
     <img src="./Picture46.jpg" alt="Social and Resource Map" width="70%">
   </p>
 
