@@ -11,9 +11,9 @@
   </p>
 
   <p align="center">
-    <img src="./4.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./4.jpg" alt="Social and Resource Map" width="90%">
   </p>
 
   <p align="center">
-    <img src="./5.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./5.jpg" alt="Social and Resource Map" width="90%">
   </p>
