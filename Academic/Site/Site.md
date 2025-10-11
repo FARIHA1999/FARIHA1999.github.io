@@ -1,5 +1,7 @@
 ## <i>**🧾Project:** Neighborhood Plan of an Residential Area</i> <br>
 <br>
+
+[![shitft](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report.pdf) <br>
 <p align="center">
     <img src="./Picture1.jpg" alt="Social and Resource Map" width="130%">
   </p>
@@ -44,7 +46,7 @@
   </p>
 <br>
 
-[![shitft](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report.pdf) <br>
+
 
 ## <i>**🧾Project:** Patterns of Land Subdivision </i> <br>
 
