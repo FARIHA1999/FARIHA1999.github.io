@@ -16,10 +16,13 @@
 
 **Highlight:** 🏆 2nd place in the “Capacity Building Workshop with Government Officials on Strengthening Access to the GCF for SMEs in Bangladesh” (May 2025).
 
+<summary>View Certificate</summary>
+<details>
   <div align="center">
     <img src="Training%20on%20GCF.jpg"
          alt="Certificate: Capacity Building Workshop on GCF for SMEs, May 2025"
-         width="70%">
+         width="50%">
   </div>
+</details>
 
 
