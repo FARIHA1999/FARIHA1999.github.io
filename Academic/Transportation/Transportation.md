@@ -2,7 +2,10 @@
 
 **🎯 Objective:** To systematically evaluate the university campus’s accessibility and safety for persons with disabilities against accessibity and safety indicators and applicable national codes. <br>
 
-- **Accessibility and Safety Audit - Survey Findings**
+<p align="left"> 
+
+  - **Accessibility and Safety Audit - Survey Findings**
+ </p>
   <p align="left">
     <img src="./Picture1.jpg" alt="Social and Resource Map" width="70%">
   </p>
