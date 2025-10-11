@@ -1,7 +1,7 @@
 ## <i>**🧾Project:** Neighborhood Plan of an Residential Area</i> <br>
 <br>
 <p align="center">
-    <img src="./Picture1.jpg" alt="Social and Resource Map" width="110%">
+    <img src="./Picture1.jpg" alt="Social and Resource Map" width="130%">
   </p>
 
 <p align="center">
