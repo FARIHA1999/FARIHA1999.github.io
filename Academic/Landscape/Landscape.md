@@ -5,8 +5,9 @@
  1. To analyze the existing planning scheme of the site and its impact on ecology.
  2. To identify key issues of the site and propose strategies.
  3. To guide future planning strategies through landscape planning for conserving the environment and biodiversity.
-<br>
+
 [![shitft](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report.pdf) <br>
+
 - **Project Framework**
 <p align="left">
     <img src="./Picture34.jpg" alt="Social and Resource Map" width="100%">
