@@ -5,8 +5,10 @@
 - To identify and analyze the problems faced by informal businessmen and users.  
 - To explore the relationship and role of stakeholders in informal markets at the local level.
 
+[![Project Presentation](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=E74C3C&style=for-the-badge)](Academic/Presentation.pdf)  [![Project Report](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=F39C12&style=for-the-badge)](Academic/Report.pdf) <br>
+
 **🗺️ Location of the Study Area**  
-  <p align="left">
+  <p align="center">
     <img src="./Picture8.png.jpg" alt="Study Area" width="80%">
   </p>
 
@@ -14,65 +16,65 @@
   ## 📊 Results 
 
 - **Physical and Social Resources of the Study Area**
-  <p align="left">
+  <p align="center">
     <img src="./Picture1.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
 - **Natural Resources of the Study Area**
-  <p align="left">
+  <p align="center">
     <img src="./Picture2.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
 - **Historical Change of the Study Area**
-  <p align="left">
+  <p align="center">
     <img src="./Picture3.jpg" alt="Social and Resource Map" width="80%">
   </p>
   
 - **Seasonal Variation in Financial Condition of the Vendors**
-  <p align="left">
+  <p align="center">
     <img src="./Picture4.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
-    <p align="left">
+    <p align="center">
     <img src="./Picture5.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
-  <p align="left">
+  <p align="center">
     <img src="./Picture6.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
-  <p align="left">
+  <p align="center">
     <img src="./Picture7.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
 - **Spatial Dimension of Problems of the Informal Market**
-  <p align="left">
+  <p align="center">
     <img src="./Picture8.jpg" alt="Social and Resource Map" width="80%">
   </p>
   
 - **Problem Identification and Ranking**
-  <p align="left">
+  <p align="center">
     <img src="./Picture9.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
   
 - **Cause and Effect Analysis**
-  <p align="left">
+  <p align="center">
     <img src="./Picture10.jpg" alt="Social and Resource Map" width="80%">
   </p>
   
 - **Identification of the Stakeholders**
-  <p align="left">
+  <p align="center">
     <img src="./Picture11.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
 - **Process of Market Management**
-  <p align="left">
+  <p align="center">
     <img src="./Picture12.jpg" alt="Social and Resource Map" width="80%">
   </p>
 
 - **The Envisioned Condition of the Informal Market by the Vendors**
-  <p align="left">
+  <p align="center">
     <img src="./Picture13.jpg" alt="Social and Resource Map" width="80%">
   </p>
   <br>
@@ -106,13 +108,10 @@
   - Price hikes linked to extortion/maintenance costs and rainy-season scarcity.
   - Complaints about playground disruption, child safety, hygiene, and impacts on privacy/security of nearby residents.
 </details> <br>
- 
-[![Project Presentation](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=E74C3C&style=for-the-badge)](Academic/Presentation.pdf)
-[![Project Report](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=F39C12&style=for-the-badge)](Academic/Report.pdf) <br>
 
 
 <b> Field Survey - December 7, 2023 </b>
-  <p align="left">
+  <p align="center">
     <img src="./Picture9.png" alt="Study Area" width="90%">
   </p>
 
