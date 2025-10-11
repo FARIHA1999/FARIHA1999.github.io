@@ -1,4 +1,4 @@
-## <i>**🧾Project:** Neighborhood Plan of an Residential Area</i> <br>
+## <i>**🧾Project 1:** Preparation of a Neighborhood Plan for an Residential Area in Bangladesh</i> <br>
 <br>
 
 [![shitft](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report.pdf) <br>
@@ -48,7 +48,7 @@
 
 
 
-## <i>**🧾Project:** Patterns of Land Subdivision </i> <br>
+## <i>**🧾Project 2:** Patterns of Land Subdivision </i> <br>
 
 <p align="center">
     <img src="./13.jpg" alt="Social and Resource Map" width="70%">
@@ -63,7 +63,7 @@
   </p>
 <br>
 
-## <i>**🧾Project:** Design of Parking Lot </i> <br>
+## <i>**🧾Project 3:** Design of Parking Lot </i> <br>
 
 <p align="center">
     <img src="./10.jpg" alt="Social and Resource Map" width="60%">
