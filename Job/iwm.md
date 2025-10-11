@@ -32,7 +32,7 @@
 📍 Pan Pacific Sonargaon, Dhaka
 
 <p align="center">
-  <img src="4.jpeg" width="32%"/>  <img src="2.jpeg" width="32%"/>  <img src="5.jpeg" width="32%"/>
+  <img src="4.jpg" width="32%"/>  <img src="2.jpg" width="32%"/>  <img src="5.jpg" width="32%"/>
 </p>
 
 **🧾 Objective of the Workshop** <br>
