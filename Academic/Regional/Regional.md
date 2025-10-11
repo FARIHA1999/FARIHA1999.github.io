@@ -6,6 +6,8 @@
 3. To find out the possible reason of positive and negative value of the shift share components.
 <br>
 
+[![shitft](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report1.pdf) [![shitft](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](shiftshare.pdf)<br>
+
 - **Shift Share Analysis**
   <p align="left">
     <img src="./Picture26.jpg" alt="Social and Resource Map" width="70%">
@@ -31,9 +33,6 @@
     <img src="./Picture37.jpg" alt="Social and Resource Map" width="70%">
   </p>
   
-[![shitft](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report1.pdf) <br>
-
-[![shitft](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](shiftshare.pdf) <br>
 <br>
 
 ## <i>**📘 Project 2:** Formal Regionalization Based on Human Development Index: A District Level Analysis in Bangladesh</i> <br>
@@ -42,7 +41,8 @@
 1. To find out the HDI index for all the districts of Bangladesh. 
 2. To compare and highlight the human development levels among all the districts across the country. 
 3. To explore the possible reasons of backward and developed regions based on the parameters of the HDI.  
-<br>
+
+[![formal](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report_formal_regionalization.pdf) [![formal](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](Presentation_formal_regionalization.pdf)<br>
 
 - **Methodology**
   <p align="left">
@@ -64,16 +64,14 @@
   </p>
   <br>
 
-[![formal](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Report_formal_regionalization.pdf) <br>
-
-[![formal](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](Presentation_formal_regionalization.pdf)<br>
-<br>
-
 ## <i>**📘 Project 3:** Spatial Concentration of Public Facilities in the Districts of Bangladesh</i> <br>
 
 **🎯 Objective:** 
 To explore the spatial concentration of public facilities, which include primary and secondary schools, colleges, hospitals, growth centers and rural markets in the districts of Bangladesh as well as delineate the regions that have deficiency and concentration of the facilities.<br>
-<br>
+
+[![LQ](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](LQ_report.pdf) <br>
+
+[![LQ](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](LQ_presentation.pdf) <br>
 
 - **Location Quotient Method**
   <p align="left">
@@ -107,9 +105,6 @@ To explore the spatial concentration of public facilities, which include primary
     <img src="./Picture54.jpg" alt="Social and Resource Map" width="70%">
   </p>
   
-[![LQ](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](LQ_report.pdf) <br>
-
-[![LQ](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](LQ_presentation.pdf) <br>
 <br>
 
 ## <i>**📘 Project 4:** Exploring the Factors Influencing Catchment Area of the Districts of Bangladesh: A Study on Chapai Nawabganj and Meherpur District </i> <br>
@@ -117,7 +112,8 @@ To explore the spatial concentration of public facilities, which include primary
 **🎯 Objective:** 
 1. To identify and analyze the factors which influence the larger and smaller catchment area of the selected districts of Bangladesh. 
 2. To explore the interrelationship among the factors influencing the catchment area of the selected districts.
-<br>
+
+[![FR](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Regionalization_Report.pdf) [![LQ](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](Regionalization_Presentation.pdf) <br>
 
 - **Location of the Study Area**
   <p align="left">
@@ -147,7 +143,5 @@ To explore the spatial concentration of public facilities, which include primary
   <p align="left">
     <img src="./Picture46.jpg" alt="Social and Resource Map" width="70%">
   </p>
-[![FR](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](Regionalization_Report.pdf) <br>
 
-[![LQ](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](Regionalization_Presentation.pdf) 
 
