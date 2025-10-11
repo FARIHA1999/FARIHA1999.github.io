@@ -31,7 +31,7 @@
 🗓️ 28–29 May 2025.
 
 <p align="center">
-  <img src="5.jpeg" width="30%"/>  <img src="6.jpeg" width="26.5%"/>  <img src="7.jpeg" width="29%"/>
+  <img src="5.jpeg" width="30%"/>  <img src="6.jpeg" width="26.5%"/>  <img src="7.jpeg" width="31%"/>
 </p>
 
 **🧾 Objective of the Workshop** <br>
