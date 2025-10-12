@@ -98,6 +98,6 @@
 📍 Planning Commission Campus
 
 <p align="center">
-  <img src="14.jpeg" width="30%"/>  <img src="15.jpeg" width="30%"/>  <img src="16.jpg" width="30%"/>
+  <img src="14.jpeg" width="30%"/>  <img src="15.jpeg" width="30%"/>  
 </p>
 
