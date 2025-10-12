@@ -72,7 +72,7 @@
 📍 Planning Commission Campus
 
 <p align="center">
-  <img src="11.jpeg" width="35%"/>  <img src="12.jpeg" width="30%"/>  <img src="13.jpeg" width="30%"/>
+  <img src="11.jpeg" width="40%"/>  <img src="12.jpeg" width="30%"/>  <img src="13.jpeg" width="30%"/>
 </p>
 
 **🧾 Objective of the Workshop** <br>
@@ -98,6 +98,6 @@
 📍 Planning Commission Campus
 
 <p align="center">
-  <img src="14.jpeg" width="32%"/>  <img src="15.jpeg" width="30%"/>  
+  <img src="14.jpeg" width="40%"/>  <img src="15.jpeg" width="30%"/>  
 </p>
 
