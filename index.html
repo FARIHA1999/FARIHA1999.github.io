@@ -17,7 +17,8 @@
       --border: #e5e7eb;
       --highlight: #2980b9;
       --box-padding: 20px;
-      --box-margin: 30px 0;
+      --box-margin: 40px 0; /* Increased gap between boxes */
+      --inner-padding: 20px; /* Padding inside the boxes */
     }
 
     * {
@@ -114,10 +115,11 @@
     }
 
     .tagline {
-      color: var(--muted);
-      font-style: italic;
-      margin: 10px 0;
-    }
+  color: var(--muted);
+  font-style: normal; /* Remove italic */
+  text-align: justify; /* Justify the text */
+  margin: 10px 0;
+}
 
     .contact a {
       margin-right: 15px;
@@ -172,7 +174,10 @@
       <img class="avatar" src="images/profile.jpg" alt="Fariha Aktar photo" />
       <div class="header-text">
         <h1>Fariha Aktar</h1>
-        <p class="tagline">An aspiring Urban and Regional Planner with a deep interest in sustainable development, climate resilience, and the integration of geospatial technologies in urban planning.</p>
+       <p class="tagline" style="line-height: 1.5;">An aspiring Urban and Regional Planner with a deep interest in sustainable development, climate resilience, and the integration of geospatial technologies in urban planning. </p>
+        
+       <p class="tagline" style="line-height: 1.5;">I hold a Bachelor’s degree in Urban and Regional Planning from the Bangladesh University of Engineering & Technology (BUET), where I’ve gained solid knowledge of urban planning theories and practices, combined with hands-on experience in geographic information systems (GIS), data analysis, and environmental modeling.</p>
+
         <div class="contact">
           <a href="mailto:aktarfariha1999@gmail.com">Email</a> ·
           <a href="https://www.linkedin.com/in/fariha-aktar-378794187/" target="_blank" rel="noopener">LinkedIn</a>
@@ -199,9 +204,10 @@
       <h2>🧩 Recent Projects</h2>
       <div class="card">
         <ul>
-          <a href="https://drive.google.com/file/d/1-YVh3saNmY9x3E0jgSx83rYcvYmydEM0/view?usp=drive_link" target="_blank" rel="noopener"><strong>3D Flood Simulation 🌊</strong></a>
-          <a href="Research/lst/lst.html" target="_blank" rel="noopener"><strong>Land Surface Temperature (LST) Map 🏜️</strong></a>
+          <li><a href="https://drive.google.com/file/d/1-YVh3saNmY9x3E0jgSx83rYcvYmydEM0/view?usp=drive_link" target="_blank" rel="noopener"><strong>3D Flood Simulation 🌊</strong></a></li>
+          <li><a href="Research/lst/lst.html" target="_blank" rel="noopener"><strong>Land Surface Temperature (LST) Map 🏜️</strong></a></li>
         </ul>
+        <p style="margin:10px 0 0;color:var(--muted);font-size:14px"></p>
       </div>
     </section>
 
@@ -209,7 +215,7 @@
     <section id="current-research">
       <h2>💡 Ongoing Research</h2>
       <ul>
-        <a href="Research/Regional.html"><strong>Exploring the Influence of Potential Factors of Urban Change in Bangladesh.</strong></a> ↗
+        <li><a href="Research/Regional.html"><strong>Exploring the Influence of Potential Factors of Urban Change in Bangladesh.</strong></a> ↗</li>
       </ul>
     </section>
 
@@ -217,7 +223,7 @@
     <section id="thesis">
       <h2>📑 Thesis</h2>
       <ul>
-        <a href="Research/Thesis.html"><strong>Exploring the Reasons Behind Land Cover Change & Evaluating Management Strategies of a Protected Area in Bangladesh.</strong></a> ↗
+        <li><a href="Research/Thesis.html"><strong>Exploring the Reasons Behind Land Cover Change & Evaluating Management Strategies of a Protected Area in Bangladesh.</strong></a> ↗</li>
       </ul>
     </section>
 
@@ -225,7 +231,7 @@
     <section id="Publications">
       <h2>🧾 Publications</h2>
       <ul>
-        <a href="Research/Pub/Pub1.html"><strong>Forest Cover Loss in Protected Areas of Bangladesh: Drivers, Impacts and Way Forward (In Review)</strong></a> ↗
+        <li><a href="Research/Pub/Pub1.html"><strong>Forest Cover Loss in Protected Areas of Bangladesh: Drivers, Impacts and Way Forward (In Review)</strong></a> ↗</li>
       </ul>
     </section>
 
@@ -233,19 +239,19 @@
     <section id="academic-projects">
       <h2>📘 Academic Projects</h2>
       <ul>
-        <a href="Academic/Coastal.html">Climate Change Adaptation</a> ↗
-        <a href="Academic/Participatory.html">Participatory Planning Studio</a> ↗
-        <a href="Academic/Project/project.html">Project Planning Studio</a> ↗
-        <a href="Academic/Transportation/Transportation.html">Transportation Planning Studio</a> ↗
-        <a href="Academic/Regional/Regional.html">Regional Planning Studio</a> ↗
-        <a href="Academic/Rural/Rural.html">Rural Planning Studio</a> ↗
-        <a href="Academic/Program/Program.html">Programming Studio</a> ↗
-        <a href="Academic/GIS/GIS.html">GIS and Remote Sensing Studio</a> ↗
-        <a href="Academic/Urban/Urban.html">Urban Planning Studio</a> ↗
-        <a href="Academic/Landscape/Landscape.html">Landscape Planning Studio</a> ↗
-        <a href="Academic/Site/Site.html">Site and Area Planning Studio</a> ↗
-        <a href="Academic/Social/Social.html">Social and Physical Surveys</a> ↗
-        <a href="Academic/Carto/Carto.html">Surveying and Cartography Workshop</a> ↗
+        <li><a href="Academic/Coastal.html">Climate Change Adaptation</a> ↗</li>
+        <li><a href="Academic/Participatory.html">Participatory Planning Studio</a> ↗</li>
+        <li><a href="Academic/Project/project.html">Project Planning Studio</a> ↗</li>
+        <li><a href="Academic/Transportation/Transportation.html">Transportation Planning Studio</a> ↗</li>
+        <li><a href="Academic/Regional/Regional.html">Regional Planning Studio</a> ↗</li>
+        <li><a href="Academic/Rural/Rural.html">Rural Planning Studio</a> ↗</li>
+        <li><a href="Academic/Program/Program.html">Programming Studio</a> ↗</li>
+        <li><a href="Academic/GIS/GIS.html">GIS and Remote Sensing Studio</a> ↗</li>
+        <li><a href="Academic/Urban/Urban.html">Urban Planning Studio</a> ↗</li>
+        <li><a href="Academic/Landscape/Landscape.html">Landscape Planning Studio</a> ↗</li>
+        <li><a href="Academic/Site/Site.html">Site and Area Planning Studio</a> ↗</li>
+        <li><a href="Academic/Social/Social.html">Social and Physical Surveys</a> ↗</li>
+        <li><a href="Academic/Carto/Carto.html">Surveying and Cartography Workshop</a> ↗</li>
       </ul>
     </section>
 
@@ -292,9 +298,9 @@
     <section id="professional-experience">
       <h2>💼 Professional Experience</h2>
       <ul>
-        <a href="Job/iwm.html"><i>Climate Associate - Institute of Water Modelling (IWM)</i></a> ↗
-        <a href="Job/gca.html"><i>Consultant - Global Center on Adaptation (GCA)</i></a> ↗
-        <a href="Job/gca1.html"><i>Intern - Global Center on Adaptation (GCA)</i></a> ↗
+        <li><a href="Job/iwm.html"><i>Climate Associate - Institute of Water Modelling (IWM)</i></a> ↗</li>
+        <li><a href="Job/gca.html"><i>Consultant - Global Center on Adaptation (GCA)</i></a> ↗</li>
+        <li><a href="Job/gca1.html"><i>Intern - Global Center on Adaptation (GCA)</i></a> ↗</li>
       </ul>
     </section>
 
@@ -326,7 +332,7 @@
     <section id="achievements">
       <h2>🏆 Achievements</h2>
       <ul>
-        <li>Key Presenter at <i>Formal Session of the Planning Week 2024: Just Urban Transition</i> – Presented thesis on Protected Area &amp; Environmental Justice.</li>
+        <li>Key Speaker at <i>Planning Week 2024: Just Urban Transition</i> – Presented thesis on Protected Area &amp; Environmental Justice.</li>
         <li>2nd Runner Up – <i>EnvoFrame SDG Awareness Competition</i>, North South University (2023).</li>
         <li>Finalist – <i>Climate Science Olympiad</i> (2023).</li>
         <li>Bronze Standard – <i>Duke of Edinburgh’s International Award</i> (2021).</li>
