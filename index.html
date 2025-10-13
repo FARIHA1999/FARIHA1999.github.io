@@ -16,6 +16,8 @@
       --card: #f8fafc;
       --border: #e5e7eb;
       --highlight: #2980b9;
+      --box-padding: 20px;
+      --box-margin: 30px 0;
     }
 
     * {
@@ -123,22 +125,11 @@
     }
 
     section {
-      margin-bottom: 40px;
-    }
-
-    .card {
-      background: var(--card);
+      margin-bottom: var(--box-margin);
+      padding: var(--box-padding);
       border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 20px;
-      margin-top: 20px;
+      border-radius: 8px;
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
     }
 
     footer {
@@ -208,8 +199,8 @@
       <h2>🧩 Recent Projects</h2>
       <div class="card">
         <ul>
-          <li><a href="https://drive.google.com/file/d/1-YVh3saNmY9x3E0jgSx83rYcvYmydEM0/view?usp=drive_link" target="_blank" rel="noopener"><strong>3D Flood Simulation 🌊</strong></a></li>
-          <li><a href="Research/lst/lst.html" target="_blank" rel="noopener"><strong>Land Surface Temperature (LST) Map 🏜️</strong></a></li>
+          <a href="https://drive.google.com/file/d/1-YVh3saNmY9x3E0jgSx83rYcvYmydEM0/view?usp=drive_link" target="_blank" rel="noopener"><strong>3D Flood Simulation 🌊</strong></a>
+          <a href="Research/lst/lst.html" target="_blank" rel="noopener"><strong>Land Surface Temperature (LST) Map 🏜️</strong></a>
         </ul>
       </div>
     </section>
@@ -218,7 +209,7 @@
     <section id="current-research">
       <h2>💡 Ongoing Research</h2>
       <ul>
-        <li><a href="Research/Regional.html"><strong>Exploring the Influence of Potential Factors of Urban Change in Bangladesh.</strong></a> ↗</li>
+        <a href="Research/Regional.html"><strong>Exploring the Influence of Potential Factors of Urban Change in Bangladesh.</strong></a> ↗
       </ul>
     </section>
 
@@ -226,7 +217,7 @@
     <section id="thesis">
       <h2>📑 Thesis</h2>
       <ul>
-        <li><a href="Research/Thesis.html"><strong>Exploring the Reasons Behind Land Cover Change & Evaluating Management Strategies of a Protected Area in Bangladesh.</strong></a> ↗</li>
+        <a href="Research/Thesis.html"><strong>Exploring the Reasons Behind Land Cover Change & Evaluating Management Strategies of a Protected Area in Bangladesh.</strong></a> ↗
       </ul>
     </section>
 
@@ -234,7 +225,7 @@
     <section id="Publications">
       <h2>🧾 Publications</h2>
       <ul>
-        <li><a href="Research/Pub/Pub1.html"><strong>Forest Cover Loss in Protected Areas of Bangladesh: Drivers, Impacts and Way Forward (In Review)</strong></a> ↗</li>
+        <a href="Research/Pub/Pub1.html"><strong>Forest Cover Loss in Protected Areas of Bangladesh: Drivers, Impacts and Way Forward (In Review)</strong></a> ↗
       </ul>
     </section>
 
@@ -242,19 +233,19 @@
     <section id="academic-projects">
       <h2>📘 Academic Projects</h2>
       <ul>
-        <li><a href="Academic/Coastal.html">Climate Change Adaptation</a> ↗</li>
-        <li><a href="Academic/Participatory.html">Participatory Planning Studio</a> ↗</li>
-        <li><a href="Academic/Project/project.html">Project Planning Studio</a> ↗</li>
-        <li><a href="Academic/Transportation/Transportation.html">Transportation Planning Studio</a> ↗</li>
-        <li><a href="Academic/Regional/Regional.html">Regional Planning Studio</a> ↗</li>
-        <li><a href="Academic/Rural/Rural.html">Rural Planning Studio</a> ↗</li>
-        <li><a href="Academic/Program/Program.html">Programming Studio</a> ↗</li>
-        <li><a href="Academic/GIS/GIS.html">GIS and Remote Sensing Studio</a> ↗</li>
-        <li><a href="Academic/Urban/Urban.html">Urban Planning Studio</a> ↗</li>
-        <li><a href="Academic/Landscape/Landscape.html">Landscape Planning Studio</a> ↗</li>
-        <li><a href="Academic/Site/Site.html">Site and Area Planning Studio</a> ↗</li>
-        <li><a href="Academic/Social/Social.html">Social and Physical Surveys</a> ↗</li>
-        <li><a href="Academic/Carto/Carto.html">Surveying and Cartography Workshop</a> ↗</li>
+        <a href="Academic/Coastal.html">Climate Change Adaptation</a> ↗
+        <a href="Academic/Participatory.html">Participatory Planning Studio</a> ↗
+        <a href="Academic/Project/project.html">Project Planning Studio</a> ↗
+        <a href="Academic/Transportation/Transportation.html">Transportation Planning Studio</a> ↗
+        <a href="Academic/Regional/Regional.html">Regional Planning Studio</a> ↗
+        <a href="Academic/Rural/Rural.html">Rural Planning Studio</a> ↗
+        <a href="Academic/Program/Program.html">Programming Studio</a> ↗
+        <a href="Academic/GIS/GIS.html">GIS and Remote Sensing Studio</a> ↗
+        <a href="Academic/Urban/Urban.html">Urban Planning Studio</a> ↗
+        <a href="Academic/Landscape/Landscape.html">Landscape Planning Studio</a> ↗
+        <a href="Academic/Site/Site.html">Site and Area Planning Studio</a> ↗
+        <a href="Academic/Social/Social.html">Social and Physical Surveys</a> ↗
+        <a href="Academic/Carto/Carto.html">Surveying and Cartography Workshop</a> ↗
       </ul>
     </section>
 
@@ -264,7 +255,7 @@
       <div class="card">
         <h3>Bachelor of Urban and Regional Planning (BURP)</h3>
         <div style="display: flex; align-items: center;">
-          <img src="buet_logo.png" alt="BUET Logo" style="width: 40px; height: auto; margin-right: 15px;">
+          <img src="buet.png" alt="BUET Logo" style="width: 40px; height: auto; margin-right: 15px;">
           <p><a href="https://urp.buet.ac.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Bangladesh University of Engineering & Technology (BUET)</a> · 🗓️ 2019–2024</p>
         </div>
         <p><strong>CGPA:</strong> 3.61/4.00</p>
@@ -273,7 +264,7 @@
       <div class="card">
         <h3>Higher Secondary Certificate (HSC)</h3>
         <div style="display: flex; align-items: center;">
-          <img src="vq_logo.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
+          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
           <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Viqarunnisa Noon School & College</a> · 🗓️ 2016–2018</p>
         </div>
         <p><strong>GPA:</strong> 5.00/5.00</p>
@@ -282,7 +273,7 @@
       <div class="card">
         <h3>Secondary School Certificate (SSC)</h3>
         <div style="display: flex; align-items: center;">
-          <img src="vq_logo.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
+          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
           <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Viqarunnisa Noon School & College</a> · 🗓️ 2014–2016</p>
         </div>
         <p><strong>GPA:</strong> 5.00/5.00</p>
@@ -297,14 +288,48 @@
       </ul>
     </section>
 
+        <!-- Professional Experience -->
+    <section id="professional-experience">
+      <h2>💼 Professional Experience</h2>
+      <ul>
+        <a href="Job/iwm.html"><i>Climate Associate - Institute of Water Modelling (IWM)</i></a> ↗
+        <a href="Job/gca.html"><i>Consultant - Global Center on Adaptation (GCA)</i></a> ↗
+        <a href="Job/gca1.html"><i>Intern - Global Center on Adaptation (GCA)</i></a> ↗
+      </ul>
+    </section>
+
+     <!-- Professional Training -->
+    <section id="training">
+      <h2>🏅 Professional Training</h2>
+      <details>
+        <summary><b>Environmental Modelling &amp; Environmental and Social Impact Assessment (ESIA)</b> · IWM — <i>click to view</i></summary>
+        <br />
+        <p><b>Key Modules:</b></p>
+        <ul>
+          <li>ESIA &amp; Project Cycle | Policy &amp; Legal Framework | Baseline Assessment</li>
+          <li>Public Consultation &amp; Stakeholder Engagement</li>
+          <li>Environmental &amp; Social Risk Assessment</li>
+          <li>Mitigation Measures &amp; EMP/EMoP Development</li>
+          <li>ESIA Reporting &amp; Environmental Clearance Process</li>
+        </ul>
+        <div class="center">
+          <!-- Replace images/esia-training.png with your actual image file name -->
+          
+          <img class="responsive" src="/ESIA%20Training.PNG" alt="ESIA Training Certificate (IWM)" style="max-width:300px" />
+          
+        </div>
+        <p>📎 <a href="https://www.iwmbd.org/assets/uploads/iwm/training/courses/Flyer%20ESIA_May_Rev_2025.pdf" target="_blank" rel="noopener">Official Course Flyer (PDF)</a></p>
+      </details>
+    </section>
+
     <!-- Achievements -->
     <section id="achievements">
       <h2>🏆 Achievements</h2>
       <ul>
-        <li>🎤 Key Speaker at <i>Planning Week 2024: Just Urban Transition</i> – Presented thesis on Protected Area &amp; Environmental Justice.</li>
-        <li>🥈 2nd Runner Up – <i>EnvoFrame SDG Awareness Competition</i>, North South University (2023).</li>
-        <li>🌍 Finalist – <i>Climate Science Olympiad</i> (2023).</li>
-        <li>🏅 Bronze Standard – <i>Duke of Edinburgh’s International Award</i> (2021).</li>
+        <li>Key Presenter at <i>Formal Session of the Planning Week 2024: Just Urban Transition</i> – Presented thesis on Protected Area &amp; Environmental Justice.</li>
+        <li>2nd Runner Up – <i>EnvoFrame SDG Awareness Competition</i>, North South University (2023).</li>
+        <li>Finalist – <i>Climate Science Olympiad</i> (2023).</li>
+        <li>Bronze Standard – <i>Duke of Edinburgh’s International Award</i> (2021).</li>
       </ul>
     </section>
 
