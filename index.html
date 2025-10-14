@@ -279,6 +279,56 @@
     font-size: 1rem;
   }
 }
+    /* Education Section Styling */
+  #education {
+    margin-top: 40px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+
+  /* Education Item Styling */
+  .education-item {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .education-item h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  .education-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+
+  .education-item a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .education-item {
+      padding: 10px;
+    }
+
+    .education-item h3 {
+      font-size: 1rem;
+    }
+  }
 
 
   </style>
@@ -409,35 +459,40 @@
     </section>
 
     <!-- Education Section -->
-    <section id="education">
-      <h2>Education</h2>
-      <div class="card">
-        <h3>Bachelor of Urban and Regional Planning (BURP)</h3>
-        <div style="display: flex; align-items: center;">
-          <img src="buet.png" alt="BUET Logo" style="width: 40px; height: auto; margin-right: 15px;">
-          <p><a href="https://urp.buet.ac.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Bangladesh University of Engineering & Technology (BUET)</a> · 🗓️ 2019–2024</p>
-        </div>
-        <p><strong>CGPA:</strong> 3.61/4.00</p>
-      </div>
+<section id="education">
+  <h2>Education</h2>
+  
+  <!-- Bachelor of Urban and Regional Planning -->
+  <div class="education-item">
+    <h3>Bachelor of Urban and Regional Planning (BURP)</h3>
+    <div style="display: flex; align-items: center;">
+      <img src="buet.png" alt="BUET Logo" style="width: 40px; height: auto; margin-right: 15px;">
+      <p><a href="https://urp.buet.ac.bd/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 600;">Bangladesh University of Engineering & Technology (BUET)</a> · 🗓️ 2019–2024</p>
+    </div>
+    <p><strong>CGPA:</strong> 3.61/4.00</p>
+  </div>
 
-      <div class="card">
-        <h3>Higher Secondary Certificate (HSC)</h3>
-        <div style="display: flex; align-items: center;">
-          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
-          <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Viqarunnisa Noon School & College</a> · 🗓️ 2016–2018</p>
-        </div>
-        <p><strong>GPA:</strong> 5.00/5.00</p>
-      </div>
+  <!-- Higher Secondary Certificate (HSC) -->
+  <div class="education-item">
+    <h3>Higher Secondary Certificate (HSC)</h3>
+    <div style="display: flex; align-items: center;">
+      <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
+      <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 600;">Viqarunnisa Noon School & College</a> · 🗓️ 2016–2018</p>
+    </div>
+    <p><strong>GPA:</strong> 5.00/5.00</p>
+  </div>
 
-      <div class="card">
-        <h3>Secondary School Certificate (SSC)</h3>
-        <div style="display: flex; align-items: center;">
-          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
-          <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Viqarunnisa Noon School & College</a> · 🗓️ 2014–2016</p>
-        </div>
-        <p><strong>GPA:</strong> 5.00/5.00</p>
-      </div>
-    </section>
+  <!-- Secondary School Certificate (SSC) -->
+  <div class="education-item">
+    <h3>Secondary School Certificate (SSC)</h3>
+    <div style="display: flex; align-items: center;">
+      <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
+      <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 600;">Viqarunnisa Noon School & College</a> · 🗓️ 2014–2016</p>
+    </div>
+    <p><strong>GPA:</strong> 5.00/5.00</p>
+  </div>
+
+</section>
 
     <!-- IELTS Section -->
     <section id="IELTS">
