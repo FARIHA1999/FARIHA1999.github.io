@@ -4,7 +4,7 @@
 1. To identify the service area of existing fire stations.
 2. To find out shortest route for providing fire service from fire stations to hospitals.  
 3. To determine the response time for assessing the service of fire stations.
-<br>
+   
 [![shitft](https://img.shields.io/static/v1?label=Project%20Presentation&message=%20&color=FFD700&style=for-the-badge)](362.pdf)  [![362](https://img.shields.io/static/v1?label=Project%20Report&message=%20&color=0A66C2&style=for-the-badge)](report.pdf)
 <br>
 <details>
