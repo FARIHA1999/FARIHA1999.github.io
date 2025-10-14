@@ -82,31 +82,31 @@
 <details>
   <summary> <b>🧾 Major Findings </b>- <i>click to view</i> </summary>
 
-📍 **Location:**
-  - **Advantages:** Steady demand from nearby households; little congestion or pedestrian conflict.
-  - **Disadvantages:** Space conflicts on the playground; weak visibility/access from New Polton Lane; limited reach beyond the neighborhood.
+**Location:** <br>
+  - **Advantages:** Steady demand from nearby households; little congestion or pedestrian conflict.<br>
+  - **Disadvantages:** Space conflicts on the playground; weak visibility/access from New Polton Lane; limited reach beyond the neighborhood.<br>
 
-🏗️ **Infrastructure:**
-  - Access to WASA pump.
-  - Deficits in sanitation, drainage, storage and waste bins.
+**Infrastructure:** <br>
+  - Access to WASA pump.<br>
+  - Deficits in sanitation, drainage, storage and waste bins.<br>
 
-⚖️ **Management & vendor rights:**
-  - Operations depend on relationships with local leaders/ward office; no formal committee.
-  - No legal tenure → exposure to **extortion, eviction**, space disputes, restricted hours.
+**Management & vendor rights:** <br>
+  - Operations depend on relationships with local leaders/ward office; no formal committee.<br>
+  - No legal tenure → exposure to **extortion, eviction**, space disputes, restricted hours.<br>
 
-⏱️ **Temporal dynamics:**
-  - **Seasonal:** vegetables (winter/spring), fruits (summer), fish (monsoon).
-  - **Weekly:** peak on **Fridays**; spikes during sports events (Fri–Sat).
-  - **Festivals:** Boishakh ↑ fish; Eid-ul-Azha ↓ fish; Ramadan ↑ fruits.
-  - **Daily/External:** longer commutes and gender roles affect routines (esp. male vendors); rain, waterlogging, and heat disrupt storage and trading.
+**Temporal dynamics:** <br>
+  - **Seasonal:** vegetables (winter/spring), fruits (summer), fish (monsoon).<br>
+  - **Weekly:** peak on **Fridays**; spikes during sports events (Fri–Sat).<br>
+  - **Festivals:** Boishakh ↑ fish; Eid-ul-Azha ↓ fish; Ramadan ↑ fruits.<br>
+  - **Daily/External:** longer commutes and gender roles affect routines (esp. male vendors); rain, waterlogging, and heat disrupt storage and trading.<br>
 
-🗑️ **Waste management:**
-  - Open dumping due to lack of designated sites → pollution at the market.
-  - Local sweeper aggregates waste; DSCC removes it; vendors pay a daily fee.
+**Waste management:** <br>
+  - Open dumping due to lack of designated sites → pollution at the market. <br>
+  - Local sweeper aggregates waste; DSCC removes it; vendors pay a daily fee.<br>
 
-🧑‍🤝‍🧑 **Customer perceptions:**
-  - Price hikes linked to extortion/maintenance costs and rainy-season scarcity.
-  - Complaints about playground disruption, child safety, hygiene, and impacts on privacy/security of nearby residents.
+**Customer perceptions:** <br>
+  - Price hikes linked to extortion/maintenance costs and rainy-season scarcity. <br>
+  - Complaints about playground disruption, child safety, hygiene, and impacts on privacy/security of nearby residents. <br>
 </details> <br>
 
 
