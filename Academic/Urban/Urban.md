@@ -11,50 +11,50 @@
 
 # 📊 Result
 <p align="center">
-    <img src="./Picture32.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture32.jpg" alt="Social and Resource Map" width="80%">
 </p> 
 
 <p align="center">
-    <img src="./Picture31.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture31.jpg" alt="Social and Resource Map" width="80%">
 </p> 
 
 <p align="center">
-    <img src="./Picture22.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture22.jpg" alt="Social and Resource Map" width="80%">
 </p> 
 
 <p align="center">
-    <img src="./Picture23.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture23.jpg" alt="Social and Resource Map" width="80%">
 </p> 
 
 <p align="center">
-    <img src="./Picture24.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture24.jpg" alt="Social and Resource Map" width="80%">
 </p> 
 
 <p align="center">
-    <img src="./Picture25.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture25.jpg" alt="Social and Resource Map" width="80%">
 </p> 
 
 <p align="center">
-    <img src="./Picture26.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture26.jpg" alt="Social and Resource Map" width="80%">
 </p> 
 <p align="center">
-    <img src="./Picture27.jpg" alt="Social and Resource Map" width="70%">
-</p> 
-
-<p align="center">
-    <img src="./Picture28.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture27.jpg" alt="Social and Resource Map" width="80%">
 </p> 
 
 <p align="center">
-    <img src="./Picture29.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture28.jpg" alt="Social and Resource Map" width="80%">
+</p> 
+
+<p align="center">
+    <img src="./Picture29.jpg" alt="Social and Resource Map" width="80%">
 </p>
 
 <p align="center">
-    <img src="./Picture30.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture30.jpg" alt="Social and Resource Map" width="80%">
 </p>
 
 <p align="center">
-    <img src="./Picture33.jpg" alt="Social and Resource Map" width="70%">
+    <img src="./Picture33.jpg" alt="Social and Resource Map" width="80%">
 </p>
 <br>
 
