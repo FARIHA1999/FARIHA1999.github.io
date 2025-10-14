@@ -50,7 +50,7 @@
       font-size: 1.5rem;
       margin-bottom: 15px;
       font-weight: 600;
-      color: #2c3e50; /* Set the font color */
+      color: #2c3e50;
     }
 
     a {
@@ -168,7 +168,7 @@
     }
 
     #recent-projects .card a {
-      color: #2B547E; /* Darker text color for contrast */
+      color: #2c3e50; /* Darker text color for contrast */
       font-weight: 600;
       text-decoration: none;
     }
@@ -205,7 +205,7 @@
     }
 
     #current-research .research-header h3 {
-      color: #2B547E;
+      color: #2c3e50;
       font-size: 1.1rem;
       margin-bottom: 10px;
       font-weight: 600;
@@ -228,7 +228,7 @@
     }
 
     .experience-list li {
-      background-color: #e0f7fa;
+      background-color: lightgrey;
       padding: 15px;
       margin-bottom: 10px;
       border-radius: 8px;
@@ -237,7 +237,7 @@
     }
 
     .experience-list a {
-      color: #2B547E;
+      color: var(--fg);
       font-weight: 600;
       text-decoration: none;
     }
@@ -314,11 +314,23 @@
     <!-- Ongoing Research -->
     <section id="current-research">
       <h2>Ongoing Research</h2>
-      <ul>
-        <li><a href="Research/Regional.html"><strong>Exploring the Influence of Potential Factors of Urban Change in Bangladesh.</strong></a> ↗</li>
-        <li><a href="Research/tod.html"><strong>Mapping Temporal Variation of TOD Potential in Dhaka Using ACT/PCT.</strong></a> ↗</li>
-        <li><a href="Research/Trip/Trip.html"><strong>COVID-induced trip reduction behavior in United States?.</strong></a> ↗</li>
-      </ul>
+      <div class="research-list">
+        <div class="research-item" onclick="location.href='Research/Regional.html'">
+          <div class="research-header">
+            <h3><a href="Research/Regional.html">Exploring the Influence of Potential Factors of Urban Change in Bangladesh</a></h3>
+          </div>
+        </div>
+        <div class="research-item" onclick="location.href='Research/tod.html'">
+          <div class="research-header">
+            <h3><a href="Research/tod.html">Mapping Temporal Variation of TOD Potential in Dhaka Using ACT/PCT</a></h3>
+          </div>
+        </div>
+        <div class="research-item" onclick="location.href='Research/Trip/Trip.html'">
+          <div class="research-header">
+            <h3><a href="Research/Trip/Trip.html">COVID-induced trip reduction behavior in United States</a></h3>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Thesis -->
@@ -444,6 +456,5 @@
   </div>
 
   <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
-
 </body>
 </html>
