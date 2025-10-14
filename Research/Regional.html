@@ -22,12 +22,14 @@
             line-height: 1.6;
         }
         img {
-            margin: 10px 0;
-        }
-        .image-container img {
+    margin: 10px 0; /* Removes any extra margin above or below the image */
+    display: block; /* Ensures no extra space is applied above the image */
     width: 30%;
-    margin-right: 10px; /* Add some space between images */
-    margin-bottom: 10px; /* Add bottom margin to prevent overlap */
+}
+
+.image-container img {
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
         .project-header {
             color: #1a73e8;
