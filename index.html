@@ -168,7 +168,7 @@
     }
 
     #recent-projects .card a {
-      color: #2c3e50; /* Darker text color for contrast */
+      color: #2B547E; /* Darker text color for contrast */
       font-weight: 600;
       text-decoration: none;
     }
@@ -182,44 +182,58 @@
       font-size: 1.2rem;
     }
 
-    /* ---------- Ongoing Research: List Styling ---------- */
-    #current-research .research-list {
-      margin-top: 20px;
-      padding: 0;
-      list-style-type: none;
-    }
+    /* Research List Container */
+.research-list {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+}
 
-    #current-research .research-item {
-      background-color: #f9f9f9;
-      border-left: 5px solid var(--accent);
-      margin-bottom: 15px;
-      padding: 15px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      border-radius: 8px;
-      cursor: pointer;
-    }
+/* Individual Research Item Styling */
+.research-item {
+  background-color: #f9f9f9; /* Light grey background for each item */
+  border-left: 5px solid #3498db; /* Left border for visual emphasis */
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
-    #current-research .research-item:hover {
-      transform: translateX(5px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
+.research-item:hover {
+  transform: translateX(5px); /* Moves to the right on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
-    #current-research .research-header h3 {
-      color: #2c3e50;
-      font-size: 1.1rem;
-      margin-bottom: 10px;
-      font-weight: 600;
-    }
+/* Header Styling */
+.research-header h3 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
 
-    #current-research .research-header a {
-      text-decoration: none;
-      color: var(--accent);
-      transition: color 0.3s ease;
-    }
+.research-header a {
+  text-decoration: none;
+  color: #3498db; /* Blue color for links */
+  transition: color 0.3s ease;
+}
 
-    #current-research .research-header a:hover {
-      color: var(--accent-dark);
-    }
+.research-header a:hover {
+  color: #2980b9; /* Darker blue on hover */
+}
+
+/* Responsive Layout for Smaller Screens */
+@media (max-width: 768px) {
+  .research-item {
+    padding: 10px;
+  }
+
+  .research-header h3 {
+    font-size: 1rem;
+  }
+}
+
 
     /* ---------- Professional Experience: List Styling ---------- */
     .experience-list {
@@ -228,7 +242,7 @@
     }
 
     .experience-list li {
-      background-color: lightgrey;
+      background-color: #e0f7fa;
       padding: 15px;
       margin-bottom: 10px;
       border-radius: 8px;
@@ -237,7 +251,7 @@
     }
 
     .experience-list a {
-      color: var(--fg);
+      color: #2B547E;
       font-weight: 600;
       text-decoration: none;
     }
@@ -311,27 +325,28 @@
       </div>
     </section>
 
-    <!-- Ongoing Research -->
-    <section id="current-research">
-      <h2>Ongoing Research</h2>
-      <div class="research-list">
-        <div class="research-item" onclick="location.href='Research/Regional.html'">
-          <div class="research-header">
-            <h3><a href="Research/Regional.html">Exploring the Influence of Potential Factors of Urban Change in Bangladesh</a></h3>
-          </div>
-        </div>
-        <div class="research-item" onclick="location.href='Research/tod.html'">
-          <div class="research-header">
-            <h3><a href="Research/tod.html">Mapping Temporal Variation of TOD Potential in Dhaka Using ACT/PCT</a></h3>
-          </div>
-        </div>
-        <div class="research-item" onclick="location.href='Research/Trip/Trip.html'">
-          <div class="research-header">
-            <h3><a href="Research/Trip/Trip.html">COVID-induced trip reduction behavior in United States</a></h3>
-          </div>
-        </div>
+    <!-- Ongoing Research Section -->
+<section id="current-research">
+  <h2>Ongoing Research</h2>
+  <div class="research-list">
+    <div class="research-item">
+      <div class="research-header">
+        <h3><a href="Research/Regional.html">Exploring the Influence of Potential Factors of Urban Change in Bangladesh</a></h3>
       </div>
-    </section>
+    </div>
+    <div class="research-item">
+      <div class="research-header">
+        <h3><a href="Research/tod.html">Mapping Temporal Variation of TOD Potential in Dhaka Using ACT/PCT</a></h3>
+      </div>
+    </div>
+    <div class="research-item">
+      <div class="research-header">
+        <h3><a href="Research/Trip/Trip.html">COVID-induced trip reduction behavior in United States</a></h3>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Thesis -->
     <section id="thesis">
@@ -443,8 +458,10 @@
     <section id="achievements">
       <h2>Achievements</h2>
       <ul>
-        <li>Presented my thesis findings regarding <b>Land Cover Change in Protected Area and Its Impact on Vulnerable Community</b> focusing <b>Environmental Justice</b>at <a href="https://www.facebook.com/events/547703107975809/?active_tab=discussion">Planning Week 2024: Just Urban Transition</a></i>
+        <li>Presented my thesis findings regarding <b>Land Cover Change in Protected Area and Its Impact on Vulnerable Community</b> focusing <b>Environmental Justice</b>at <a href="https://www.facebook.com/events/547703107975809/?active_tab=discussion">Planning Week 2024: Just Urban Transition</a> organized by Department of Urban and Regional Planning (BUET)</i>
         <li><b>2nd Runner Up</b> – <i>EnvoFrame SDG Awareness Competition</i>, North South University (2023).</li>
+        <p>Videography on Ensuring Sustainable Development in Dhaka City</p>
+        
         <li>Finalist – <i>Climate Science Olympiad</i> (2023).</li>
         <li>Bronze Standard – <i>Duke of Edinburgh’s International Award</i> (2021).</li>
       </ul>
