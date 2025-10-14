@@ -17,10 +17,8 @@
       --border: #e5e7eb;
       --highlight: #2B547E;
       --box-padding: 20px;
-      --box-margin: 60px 0;
-      --inner-padding: 20px;
-      --accent: #3498db;
-      --accent-dark: #2980b9;
+      --box-margin: 60px 0; /* Increased gap between boxes */
+      --inner-padding: 20px; /* Padding inside the boxes */
     }
 
     body {
@@ -38,7 +36,9 @@
       padding: 0 20px;
     }
 
-    h1, h2 { color: var(--fg); }
+    h1, h2 {
+      color: var(--fg);
+    }
 
     h1 {
       font-size: 2.8rem;
@@ -50,7 +50,7 @@
       font-size: 1.5rem;
       margin-bottom: 15px;
       font-weight: 600;
-      color: #2c3e50;
+      color: #2c3e50; /* Set the font color */
     }
 
     a {
@@ -58,7 +58,10 @@
       text-decoration: none;
       transition: color 0.3s ease;
     }
-    a:hover { color: var(--highlight); }
+
+    a:hover {
+      color: var(--highlight);
+    }
 
     .tabs {
       display: flex;
@@ -68,6 +71,7 @@
       margin-bottom: 40px;
       border-bottom: 2px solid var(--border);
     }
+
     .tabs a {
       color: var(--fg);
       font-weight: 600;
@@ -75,7 +79,9 @@
       border-radius: 5px;
       transition: all 0.3s ease;
     }
-    .tabs a:hover, .tabs a.active {
+
+    .tabs a:hover,
+    .tabs a.active {
       background-color: var(--highlight);
       color: #fff;
     }
@@ -89,35 +95,40 @@
       padding-bottom: 20px;
       border-bottom: 2px solid var(--border);
     }
+
     .avatar {
-      width: 250px;
-      height: 250px;
+      width: 250px;  /* Increased width */
+      height: 250px; /* Increased height */
       border-radius: 50%;
       object-fit: cover;
       border: 3px solid #fff;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     }
+
     .header-text {
       max-width: 600px;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 20px; /* Ensure it matches the padding for consistency */
+      padding-right: 20px; /* Ensure it matches the padding for consistency */
     }
+
     .tagline {
       color: var(--muted);
-      font-style: normal;
-      text-align: justify;
+      font-style: normal; /* Remove italic */
+      text-align: justify; /* Justify the text */
       margin: 10px 0;
     }
 
-    .contact a { margin-right: 15px; font-weight: 600; }
+    .contact a {
+      margin-right: 15px;
+      font-weight: 600;
+    }
 
     section {
-      margin-bottom: 40px;
+      margin-bottom: 40px; /* Decreased the gap between sections */
       padding: var(--box-padding);
       border: 1px solid var(--border);
       border-radius: 8px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-      background: #fff;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     }
 
     footer {
@@ -128,8 +139,18 @@
       border-top: 2px solid var(--border);
     }
 
-    html { scroll-behavior: smooth; }
-    .center { text-align: center; }
+    .contact a {
+      font-weight: 600;
+    }
+
+    /* Smooth scroll styling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .center {
+      text-align: center;
+    }
 
     /* ---------- Recent Projects: Card Styling ---------- */
     #recent-projects .card-container {
@@ -137,24 +158,67 @@
       gap: 20px;
       margin-top: 20px;
     }
+
     #recent-projects .card {
-      background-color: #e0f7fa;
+      background-color: #e0f7fa; /* Light blue background */
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
     #recent-projects .card a {
-      color: #2c3e50;
+      color: #2B547E; /* Darker text color for contrast */
       font-weight: 600;
       text-decoration: none;
     }
+
     #recent-projects .card:hover {
       transform: translateY(-10px);
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
     }
+
     #recent-projects .card strong {
       font-size: 1.2rem;
+    }
+
+    /* ---------- Ongoing Research: List Styling ---------- */
+    #current-research .research-list {
+      margin-top: 20px;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    #current-research .research-item {
+      background-color: #f9f9f9;
+      border-left: 5px solid var(--accent);
+      margin-bottom: 15px;
+      padding: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #current-research .research-item:hover {
+      transform: translateX(5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    #current-research .research-header h3 {
+      color: #2B547E;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    #current-research .research-header a {
+      text-decoration: none;
+      color: var(--accent);
+      transition: color 0.3s ease;
+    }
+
+    #current-research .research-header a:hover {
+      color: var(--accent-dark);
     }
 
     /* ---------- Professional Experience: List Styling ---------- */
@@ -164,7 +228,7 @@
     }
 
     .experience-list li {
-      background-color: lightgrey;
+      background-color: #e0f7fa;
       padding: 15px;
       margin-bottom: 10px;
       border-radius: 8px;
@@ -173,7 +237,7 @@
     }
 
     .experience-list a {
-      color: var(--fg);
+      color: #2B547E;
       font-weight: 600;
       text-decoration: none;
     }
@@ -182,10 +246,6 @@
       transform: translateY(-5px);
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     }
-    .container {
-  background-color: lightgray;
-  padding: 20px;
-}
   </style>
 </head>
 <body>
@@ -202,13 +262,12 @@
     </div>
 
     <!-- Hero / Header -->
-    <header id="home">
+    <header>
       <img class="avatar" src="images/profile.jpg" alt="Fariha Aktar photo" />
       <div class="header-text">
         <h1>Fariha Aktar</h1>
         <p class="tagline" style="line-height: 1.5;">An aspiring Urban and Regional Planner with a deep interest in sustainable development, climate resilience, and the integration of geospatial technologies in urban planning. </p>
         <p class="tagline" style="line-height: 1.5;">I hold a Bachelor’s degree in Urban and Regional Planning from the Bangladesh University of Engineering & Technology (BUET), where I’ve gained solid knowledge of urban planning theories and practices, combined with hands-on experience in geographic information systems (GIS), data analysis, and environmental modeling.</p>
-
         <div class="contact">
           <a href="mailto:aktarfariha1999@gmail.com">Email</a> ·
           <a href="https://www.linkedin.com/in/fariha-aktar-378794187/" target="_blank" rel="noopener">LinkedIn</a>
@@ -255,23 +314,11 @@
     <!-- Ongoing Research -->
     <section id="current-research">
       <h2>Ongoing Research</h2>
-      <div class="research-list">
-        <div class="research-item" onclick="location.href='Research/Regional.html'">
-          <div class="research-header">
-            <h3><a href="Research/Regional.html">Exploring the Influence of Potential Factors of Urban Change in Bangladesh</a></h3>
-          </div>
-        </div>
-        <div class="research-item" onclick="location.href='Research/tod.html'">
-          <div class="research-header">
-            <h3><a href="Research/tod.html">Mapping Temporal Variation of TOD Potential in Dhaka Using ACT/PCT</a></h3>
-          </div>
-        </div>
-        <div class="research-item" onclick="location.href='Research/Trip/Trip.html'">
-          <div class="research-header">
-            <h3><a href="Research/Trip/Trip.html">COVID-induced trip reduction behavior in United States</a></h3>
-          </div>
-        </div>
-      </div>
+      <ul>
+        <li><a href="Research/Regional.html"><strong>Exploring the Influence of Potential Factors of Urban Change in Bangladesh.</strong></a> ↗</li>
+        <li><a href="Research/tod.html"><strong>Mapping Temporal Variation of TOD Potential in Dhaka Using ACT/PCT.</strong></a> ↗</li>
+        <li><a href="Research/Trip/Trip.html"><strong>COVID-induced trip reduction behavior in United States?.</strong></a> ↗</li>
+      </ul>
     </section>
 
     <!-- Thesis -->
@@ -310,39 +357,38 @@
       </ul>
     </section>
 
-    <!-- Education -->
+    <!-- Education Section -->
     <section id="education">
       <h2>Education</h2>
-
-      <div class="container">
+      <div class="card">
         <h3>Bachelor of Urban and Regional Planning (BURP)</h3>
-        <div class="row">
-          <img src="buet.png" alt="BUET Logo">
+        <div style="display: flex; align-items: center;">
+          <img src="buet.png" alt="BUET Logo" style="width: 40px; height: auto; margin-right: 15px;">
           <p><a href="https://urp.buet.ac.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Bangladesh University of Engineering & Technology (BUET)</a> · 🗓️ 2019–2024</p>
         </div>
         <p><strong>CGPA:</strong> 3.61/4.00</p>
       </div>
 
-      <div class="container">
+      <div class="card">
         <h3>Higher Secondary Certificate (HSC)</h3>
-        <div class="row">
-          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo">
+        <div style="display: flex; align-items: center;">
+          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
           <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Viqarunnisa Noon School & College</a> · 🗓️ 2016–2018</p>
         </div>
         <p><strong>GPA:</strong> 5.00/5.00</p>
       </div>
 
-      <div class="container">
+      <div class="card">
         <h3>Secondary School Certificate (SSC)</h3>
-        <div class="row">
-          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo">
+        <div style="display: flex; align-items: center;">
+          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
           <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Viqarunnisa Noon School & College</a> · 🗓️ 2014–2016</p>
         </div>
         <p><strong>GPA:</strong> 5.00/5.00</p>
       </div>
     </section>
 
-    <!-- IELTS -->
+    <!-- IELTS Section -->
     <section id="IELTS">
       <h2><img src="il.png" alt="IELTS Logo" style="width: 80px; height: auto; margin-right: 10px;"></h2>
       <ul>
@@ -354,9 +400,9 @@
     <section id="professional-experience">
       <h2>Professional Experience</h2>
       <ul class="experience-list">
-        <li><a href="Job/iwm.html">Climate Associate - Institute of Water Modelling (IWM)</a></li>
-        <li><a href="Job/gca.html">Consultant - Global Center on Adaptation (GCA)</a></li>
-        <li><a href="Job/gca1.html">Intern - Global Center on Adaptation (GCA)</a></li>
+        <li><a href="Job/iwm.html"><i>Climate Associate - Institute of Water Modelling (IWM)</i></a> ↗</li>
+        <li><a href="Job/gca.html"><i>Consultant - Global Center on Adaptation (GCA)</i></a> ↗</li>
+        <li><a href="Job/gca1.html"><i>Intern - Global Center on Adaptation (GCA)</i></a> ↗</li>
       </ul>
     </section>
 
@@ -398,5 +444,6 @@
   </div>
 
   <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+
 </body>
 </html>
