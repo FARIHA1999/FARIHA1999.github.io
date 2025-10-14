@@ -260,6 +260,55 @@
       transform: translateY(-5px);
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     }
+
+    ul {
+    list-style-type: none; /* Optional: removes bullet points */
+    padding-left: 0; /* Optional: removes default padding */
+    }
+
+    li {
+    margin-bottom: 10px; /* Adds space between list items */
+    }
+
+    #skills {
+    padding: 20px;
+    background-color: #ffffff; /* Classic white background */
+    font-family: Arial, sans-serif; /* Clean font style */
+    }
+
+    .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Add spacing between items */
+    }
+
+    .skill {
+    width: 130px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Light background for the skill card */
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for classic style */
+    padding: 10px;
+    text-align: center;
+    }
+
+    .skill img {
+    width: 50px; /* Limit icon size */
+    height: 50px; /* Keep icon size uniform */
+    margin-bottom: 10px; /* Space between icon and text */
+    }
+
+    .skill p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333; /* Dark gray text for classic feel */
+    }
+
   </style>
 </head>
 <body>
@@ -289,6 +338,8 @@
       </div>
     </header>
 
+    
+
     <!-- Research Areas -->
     <section id="research-areas">
       <h2>Research Areas</h2>
@@ -302,6 +353,42 @@
         <li>Climate Change Adaptation</li>
       </ul>
     </section>
+
+    <section id="skills">
+    <div class="skill-container">
+        <div class="skill">
+            <img src="https://img.shields.io/badge/ArcMap-FF6F00?style=for-the-badge&logo=esri&logoColor=white" alt="ArcMap">
+            <p>ArcMap</p>
+        </div>
+        <div class="skill">
+            <img src="https://img.shields.io/badge/Arc%20GIS%20Pro-1E4D2B?style=for-the-badge&logo=esri&logoColor=white" alt="Arc GIS Pro">
+            <p>Arc GIS Pro</p>
+        </div>
+        <div class="skill">
+            <img src="https://img.shields.io/badge/QGIS-3C9D46?style=for-the-badge&logo=qgis&logoColor=white" alt="QGIS">
+            <p>QGIS</p>
+        </div>
+        <div class="skill">
+            <img src="https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white" alt="Google Earth Engine">
+            <p>Google Earth Engine</p>
+        </div>
+        <div class="skill">
+            <img src="https://img.shields.io/badge/City%20Engine-1E4D2B?style=for-the-badge&logo=esri&logoColor=white" alt="City Engine">
+            <p>City Engine</p>
+        </div>
+        <div class="skill">
+            <img src="https://img.shields.io/badge/R%20Studio-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R Studio">
+            <p>R Studio</p>
+        </div>
+        <div class="skill">
+            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+            <p>Python</p>
+        </div>
+        <div class="skill">
+            <img src="https://img.shields.io/badge/AutoCAD-1E4D2B?style=for-the-badge&logo=autodesk&logoColor=white" alt="AutoCAD">
+            <p>AutoCAD</p>
+        </div
+
 
     <!-- Recent Projects -->
     <section id="recent-projects">
