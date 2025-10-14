@@ -138,14 +138,14 @@
       margin-top: 20px;
     }
     #recent-projects .card {
-      background-color: #e0f7fa; /* Light blue background */
+      background-color: #e0f7fa;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     #recent-projects .card a {
-      color: #2c3e50; /* Darker text color for contrast */
+      color: #2c3e50;
       font-weight: 600;
       text-decoration: none;
     }
@@ -157,11 +157,35 @@
       font-size: 1.2rem;
     }
 
-    @media (max-width: 768px) {
-      #recent-projects .card {
-        padding: 15px;
-      }
+    /* ---------- Professional Experience: List Styling ---------- */
+    .experience-list {
+      list-style-type: none;
+      padding: 0;
     }
+
+    .experience-list li {
+      background-color: lightgrey;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .experience-list a {
+      color: var(--fg);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .experience-list li:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+    .container {
+  background-color: lightgray;
+  padding: 20px;
+}
   </style>
 </head>
 <body>
@@ -290,7 +314,7 @@
     <section id="education">
       <h2>Education</h2>
 
-      <div class="card">
+      <div class="container">
         <h3>Bachelor of Urban and Regional Planning (BURP)</h3>
         <div class="row">
           <img src="buet.png" alt="BUET Logo">
@@ -299,7 +323,7 @@
         <p><strong>CGPA:</strong> 3.61/4.00</p>
       </div>
 
-      <div class="card">
+      <div class="container">
         <h3>Higher Secondary Certificate (HSC)</h3>
         <div class="row">
           <img src="vq.png" alt="Viqarunnisa Noon School & College Logo">
@@ -308,7 +332,7 @@
         <p><strong>GPA:</strong> 5.00/5.00</p>
       </div>
 
-      <div class="card">
+      <div class="container">
         <h3>Secondary School Certificate (SSC)</h3>
         <div class="row">
           <img src="vq.png" alt="Viqarunnisa Noon School & College Logo">
@@ -329,10 +353,10 @@
     <!-- Professional Experience -->
     <section id="professional-experience">
       <h2>Professional Experience</h2>
-      <ul>
-        <li><a href="Job/iwm.html"><i>Climate Associate - Institute of Water Modelling (IWM)</i></a> ↗</li>
-        <li><a href="Job/gca.html"><i>Consultant - Global Center on Adaptation (GCA)</i></a> ↗</li>
-        <li><a href="Job/gca1.html"><i>Intern - Global Center on Adaptation (GCA)</i></a> ↗</li>
+      <ul class="experience-list">
+        <li><a href="Job/iwm.html">Climate Associate - Institute of Water Modelling (IWM)</a></li>
+        <li><a href="Job/gca.html">Consultant - Global Center on Adaptation (GCA)</a></li>
+        <li><a href="Job/gca1.html">Intern - Global Center on Adaptation (GCA)</a></li>
       </ul>
     </section>
 
