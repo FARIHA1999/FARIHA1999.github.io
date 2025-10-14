@@ -16,8 +16,8 @@
   --card: #f8fafc;
   --border: #e5e7eb;
   --highlight: #2B547E;
-  --box-padding: 10px;
-  --box-margin: 40px 0; /* Increased gap between boxes */
+  --box-padding: 20px;
+  --box-margin: 60px 0; /* Increased gap between boxes */
   --inner-padding: 20px; /* Padding inside the boxes */
 }
 
@@ -26,13 +26,13 @@
       line-height: 1.6;
       background-color: var(--background);
       color: var(--fg);
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 40px;
+      padding-bottom: 60px;
     }
 
     .wrap {
       max-width: var(--maxw);
-      margin: 0 6px;
+      margin: 0 auto;
       padding: 0 20px;
     }
 
@@ -42,13 +42,13 @@
 
     h1 {
       font-size: 2.8rem;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       font-weight: 700;
     }
 
    h2 {
-    font-size: 1.2rem;
-    margin-bottom: 2px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
     font-weight: 600;
     color: #2c3e50; /* Set the font color */
 }
@@ -150,170 +150,6 @@
     .center {
       text-align: center;
     }
-    /* Card container for recent projects */
-.card-container {
-  display: flex;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.card {
-  background-color: #e0f7fa; /* Light blue background */
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card a {
-  color: #2c3e50; /* Darker text color for contrast */
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
-.card strong {
-  font-size: 1.2rem;
-}
-
-   
-
-  /* Heading Style */
-  .card h3 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #2c3e50;
-    margin-bottom: 10px;
-  }
-
-  /* Text Styling */
-  .card p {
-    font-size: 1rem;
-    color: #7f8c8d;
-    margin-bottom: 10px;
-  }
-
-  /* Link Styling */
-  .card a {
-    font-weight: 600;
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-
-  .card a:hover {
-    color: #2980b9;
-  }
-
-  
-
-    /* Research List Container */
-.research-list {
-  margin-top: 15px;
-  padding: 0;
-  list-style-type: none;
-}
-
-/* Individual Research Item Styling */
-.research-item {
-  background-color: #f9f9f9; /* Light grey background for each item */
-  border-left: 5px solid #3498db; /* Left border for visual emphasis */
-  margin-bottom: 10px;
-  padding: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.research-item:hover {
-  transform: translateX(5px); /* Moves to the right on hover */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Header Styling */
-.research-header h3 {
-  color: #2c3e50;
-  font-size: 1.1rem;
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-.research-header a {
-  text-decoration: none;
-  color: #3498db; /* Blue color for links */
-  transition: color 0.3s ease;
-}
-
-.research-header a:hover {
-  color: #2980b9; /* Darker blue on hover */
-}
-
-/* Responsive Layout for Smaller Screens */
-@media (max-width: 768px) {
-  .research-item {
-    padding: 10px;
-  }
-
-  .research-header h3 {
-    font-size: 1rem;
-  }
-}
-    /* Education Section Styling */
-  #education {
-    margin-top: 40px;
-  }
-
-  h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 30px;
-    color: #2c3e50;
-  }
-
-  /* Education Item Styling */
-  .education-item {
-    background-color: white;
-    padding: 12px;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .education-item h3 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #2c3e50;
-    margin-bottom: 8px;
-  }
-
-  .education-item p {
-    font-size: 1rem;
-    color: black;
-  }
-
-  .education-item a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-
-  /* Responsive Design for Smaller Screens */
-  @media (max-width: 768px) {
-    .education-item {
-      padding: 10px;
-    }
-
-    .education-item h3 {
-      font-size: 1rem;
-    }
-  }
-
-
   </style>
 </head>
 <body>
@@ -359,51 +195,29 @@
       </ul>
     </section>
 
-    <!-- Recent Projects Section -->
+    <!-- Recent Projects -->
     <section id="recent-projects">
-    <h2>Recent Projects</h2>
-    <div class="card-container">
-    <div class="card">
-      <a href="https://drive.google.com/file/d/1-YVh3saNmY9x3E0jgSx83rYcvYmydEM0/view?usp=drive_link" target="_blank" rel="noopener">
-        <strong>3D Flood Simulation 🌊</strong>
-      </a>
-    </div>
-    <div class="card">
-      <a href="Research/lst/lst.html" target="_blank" rel="noopener">
-        <strong>Land Surface Temperature (LST) Map 🏜️</strong>
-      </a>
-    </div>
-    <div class="card">
-      <a href="Research/habitat.html">
-        <strong>Habitat Mapping of Coastal Regions of Bangladesh 🗺️</strong>
-      </a>
-    </div>
-    </div>
+      <h2>Recent Projects</h2>
+      <div class="card">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1-YVh3saNmY9x3E0jgSx83rYcvYmydEM0/view?usp=drive_link" target="_blank" rel="noopener"><strong>3D Flood Simulation 🌊</strong></a></li>
+          <li><a href="Research/lst/lst.html" target="_blank" rel="noopener"><strong>Land Surface Temperature (LST) Map 🏜️</strong></a></li>
+          <li><a href="Research/habitat.html"><strong>Habitat Mapping of Coastal Regions of Bangladesh 🗺️</strong></a></li>
+
+        </ul>
+        <p style="margin:10px 0 0;color:var(--muted);font-size:14px"></p>
+      </div>
     </section>
 
-
-    <!-- Ongoing Research Section -->
-<section id="current-research">
-  <h2>Ongoing Research</h2>
-  <div class="research-list">
-    <div class="research-item">
-      <div class="research-header">
-        <h3><a href="Research/Regional.html">Exploring the Influence of Potential Factors of Urban Change in Bangladesh</a></h3>
-      </div>
-    </div>
-    <div class="research-item">
-      <div class="research-header">
-        <h3><a href="Research/tod.html">Mapping Temporal Variation of TOD Potential in Dhaka Using ACT/PCT</a></h3>
-      </div>
-    </div>
-    <div class="research-item">
-      <div class="research-header">
-        <h3><a href="Research/Trip/Trip.html">COVID-induced trip reduction behavior in United States</a></h3>
-      </div>
-    </div>
-  </div>
-</section>
-        
+    <!-- Current Research -->
+    <section id="current-research">
+      <h2>Ongoing Research</h2>
+      <ul>
+        <li><a href="Research/Regional.html"><strong>Exploring the Influence of Potential Factors of Urban Change in Bangladesh.</strong></a> ↗</li>
+        <li><a href="Research/tod.html"><strong>Mapping Temporal Variation of TOD Potential in Dhaka Using ACT/PCT.</strong></a> ↗</li>
+        <li><a href="Research/Trip/Trip.html"><strong>COVID-induced trip reduction behavior in United States?.</strong></a> ↗</li>
+      </ul>
+    </section>
 
     <!-- Thesis -->
     <section id="thesis">
@@ -442,40 +256,35 @@
     </section>
 
     <!-- Education Section -->
-<section id="education">
-  <h2>Education</h2>
-  
-  <!-- Bachelor of Urban and Regional Planning -->
-  <div class="education-item">
-    <h3>Bachelor of Urban and Regional Planning (BURP)</h3>
-    <div style="display: flex; align-items: center;">
-      <img src="buet.png" alt="BUET Logo" style="width: 40px; height: auto; margin-right: 15px;">
-      <p><a href="https://urp.buet.ac.bd/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 600;">Bangladesh University of Engineering & Technology (BUET)</a> · 🗓️ 2019–2024</p>
-    </div>
-    <p><strong>CGPA:</strong> 3.61/4.00</p>
-  </div>
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>Bachelor of Urban and Regional Planning (BURP)</h3>
+        <div style="display: flex; align-items: center;">
+          <img src="buet.png" alt="BUET Logo" style="width: 40px; height: auto; margin-right: 15px;">
+          <p><a href="https://urp.buet.ac.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Bangladesh University of Engineering & Technology (BUET)</a> · 🗓️ 2019–2024</p>
+        </div>
+        <p><strong>CGPA:</strong> 3.61/4.00</p>
+      </div>
 
-  <!-- Higher Secondary Certificate (HSC) -->
-  <div class="education-item">
-    <h3>Higher Secondary Certificate (HSC)</h3>
-    <div style="display: flex; align-items: center;">
-      <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
-      <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 600;">Viqarunnisa Noon School & College</a> · 🗓️ 2016–2018</p>
-    </div>
-    <p><strong>GPA:</strong> 5.00/5.00</p>
-  </div>
+      <div class="card">
+        <h3>Higher Secondary Certificate (HSC)</h3>
+        <div style="display: flex; align-items: center;">
+          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
+          <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Viqarunnisa Noon School & College</a> · 🗓️ 2016–2018</p>
+        </div>
+        <p><strong>GPA:</strong> 5.00/5.00</p>
+      </div>
 
-  <!-- Secondary School Certificate (SSC) -->
-  <div class="education-item">
-    <h3>Secondary School Certificate (SSC)</h3>
-    <div style="display: flex; align-items: center;">
-      <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
-      <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 600;">Viqarunnisa Noon School & College</a> · 🗓️ 2014–2016</p>
-    </div>
-    <p><strong>GPA:</strong> 5.00/5.00</p>
-  </div>
-
-</section>
+      <div class="card">
+        <h3>Secondary School Certificate (SSC)</h3>
+        <div style="display: flex; align-items: center;">
+          <img src="vq.png" alt="Viqarunnisa Noon School & College Logo" style="width: 40px; height: auto; margin-right: 15px;">
+          <p><a href="https://www.vnsc.edu.bd/" target="_blank" style="color: #3498db; text-decoration: none;">Viqarunnisa Noon School & College</a> · 🗓️ 2014–2016</p>
+        </div>
+        <p><strong>GPA:</strong> 5.00/5.00</p>
+      </div>
+    </section>
 
     <!-- IELTS Section -->
     <section id="IELTS">
