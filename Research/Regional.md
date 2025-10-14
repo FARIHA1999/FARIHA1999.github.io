@@ -1,4 +1,4 @@
-## <i>📝 Project: Exploring the Influence of Potential Factors of Urban Change in Bangladesh. </i> <br>
+## <i>📝 Title: Exploring the Influence of Potential Factors of Urban Change in Bangladesh. </i> <br>
 
 <p align="justify">  
 <b>🔍 Project Description</b> <br>
