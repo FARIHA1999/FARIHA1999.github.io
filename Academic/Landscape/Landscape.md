@@ -13,11 +13,12 @@
 </p>
 
 # 📊 Result
-<p align="left">
-    <img src="./Picture36.jpg" alt="Social and Resource Map" width="100%">
-</p>
+
 <p align="left">
     <img src="./Picture1.jpg" alt="Social and Resource Map" width="100%">
+</p>
+<p align="left">
+    <img src="./Picture36.jpg" alt="Social and Resource Map" width="100%">
 </p>
 <p align="left">
     <img src="./Picture43.jpg" alt="Social and Resource Map" width="100%">
