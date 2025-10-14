@@ -26,6 +26,14 @@
 </p>
 
 <p align="left">
+    <img src="./Picture1.jpg" alt="Social and Resource Map" width="100%">
+</p>
+
+<p align="left">
+    <img src="./Picture2.jpg" alt="Social and Resource Map" width="100%">
+</p>
+
+<p align="left">
     <img src="./Picture38.jpg" alt="Social and Resource Map" width="100%">
 </p>
 
