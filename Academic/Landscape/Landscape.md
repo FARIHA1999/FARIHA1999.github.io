@@ -27,7 +27,9 @@
 <p align="left">
     <img src="./Picture37.jpg" alt="Social and Resource Map" width="100%">
 </p>
-
+<p align="left">
+    <img src="./Picture38.jpg" alt="Social and Resource Map" width="100%">
+</p>
 
 <p align="left">
     <img src="./Picture2.jpg" alt="Social and Resource Map" width="100%">
@@ -35,9 +37,7 @@
 <p align="left">
     <img src="./Picture3.jpg" alt="Social and Resource Map" width="100%">
 </p>
-<p align="left">
-    <img src="./Picture38.jpg" alt="Social and Resource Map" width="100%">
-</p>
+
 
 <p align="left">
     <img src="./Picture39.jpg" alt="Social and Resource Map" width="100%">
