@@ -72,9 +72,11 @@
   <p align="center">
     <img src="./Picture3.jpg" alt="Social and Resource Map" width="70%">
   </p>
-    <p align="center">
+  
+  <p align="center">
     <img src="./Picture4.jpg" alt="Social and Resource Map" width="70%">
   </p>
+  
   <p align="center">
     <img src="./Picture5.jpg" alt="Social and Resource Map" width="70%">
   </p>
